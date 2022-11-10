@@ -19,10 +19,10 @@ _![Ss](https://media-exp1.licdn.com/dms/image/C5622AQFp82Ufn2rSsQ/feedshare-shri
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Challange 
+#ABOUT 
 
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. 
+
 
 _______________________________________________________________________________________________________________________________________________________________
 
@@ -59,8 +59,7 @@ Project Link: (https://karltunmoreno.github.io/Manuel-Rodando-Website/#HOME1)
 -  HTML5 + CSS3
 -  Built on Bootstrap 5
 -  No jQuery dependency
--  **SCSS** source files included
--  1000+ FontAwesome icons
+
 
 
 ## Credits
