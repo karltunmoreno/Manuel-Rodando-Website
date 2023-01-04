@@ -13,7 +13,7 @@ html * {
 header {
   /*padding: 32px;*/
   padding: 15px 25px;
-  background-color: rgb(227, 48, 48);
+  background-color: rgb(255, 255, 255);
   /*display: flex;  off for centering*/
   justify-content: space-between;
   flex-wrap: wrap;
@@ -40,7 +40,7 @@ body {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: rgb(251, 250, 250);
+  background-color: rgb(255, 254, 254);
   position: relative;
 }
 
@@ -60,7 +60,7 @@ body {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: rgb(255, 253, 253);
+  background: rgb(255, 254, 254);
 
   position: fixed;
   right: 0;
@@ -76,7 +76,7 @@ body {
 /* Style the active link (or home/logo) */
 .active {
   background-color: #04aa6d;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .style-logo {
@@ -125,7 +125,7 @@ body {
   background-image: url("images/manuel hero.png");
   background-size: cover;
   padding: 20px 20px 50px 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
