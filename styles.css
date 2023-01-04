@@ -17,7 +17,6 @@ header {
   /*display: flex;  off for centering*/
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
 
   top: 0;
 
@@ -52,7 +51,8 @@ body {
 /* Style navigation menu links */
 .topnav a {
   color: rgb(37, 128, 219);
-  padding: 14px 16px;
+  padding: 14px 21px;
+
   text-decoration: none;
   font-size: 21px;
   display: block;
@@ -61,7 +61,7 @@ body {
 /* Style the hamburger menu */
 .topnav a.icon {
   background: rgb(255, 254, 254);
-
+  padding-right: 15px;
   position: fixed;
   right: 0;
   top: 0;
