@@ -109,16 +109,16 @@ body {
 }
 
 .tiktok {
-  height: 95px;
-  width: 95px;
+  height: 60px;
+  width: 60px;
 }
 .instagram {
-  height: 95px;
-  width: 95px;
+  height: 60px;
+  width: 60px;
 }
-.facebook {
-  height: 95px;
-  width: 95px;
+.youtube {
+  height: 60px;
+  width: 60px;
 }
 
 .hero {
@@ -168,22 +168,6 @@ body {
 
 .fa:hover {
   opacity: 0.7;
-}
-
-.fa-facebook {
-  color: #736868;
-}
-
-.fa-twitter {
-  color: #736868;
-}
-
-.fa-youtube {
-  color: #736868;
-}
-
-.fa-instagram {
-  color: #736868;
 }
 
 h1 {
