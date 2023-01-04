@@ -13,17 +13,16 @@ html * {
 header {
   /*padding: 32px;*/
   padding: 15px 25px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(227, 48, 48);
   /*display: flex;  off for centering*/
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
-  position: sticky;
+
   top: 0;
 
-  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+
   z-index: 9999;
 }
 
@@ -31,13 +30,55 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  verticle-align: middle;
 }
 
 body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(251, 250, 250);
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(37, 128, 219);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(255, 253, 253);
+
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
 .style-logo {
   display: block;
   width: 192px;
@@ -75,9 +116,37 @@ body {
   text-align: center;
 }
 
+.button {
+  background-color: #d87708;
+  border: none;
+  color: rgb(244, 198, 11);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04aa6d;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button {
+  border-radius: 2px;
+}
+
 .fa {
   padding: 20px;
-  font-size: 30px;
+  letter-spacing: 13cm;
+  font-size: 50px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -166,19 +235,16 @@ p {
   display: block;
 }
 
+/*Coder form style*/
 .contact-form {
   background-color: rgba(141, 145, 146, 0.8);
   padding: 20px;
   color: var(--primary-color);
   border: solid 3px var(--secondary-color);
-  width: 90%;
+  width: 93%;
   margin: 3.5%;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  z-index: 9999;
 }
 .contact-form h3 {
   font-size: 24px;
@@ -276,7 +342,6 @@ p {
 .radio-wrapper input:checked + label::after {
   content: "";
 }
-
 /* Coder style end */
 
 footer {

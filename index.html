@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <link rel="stylesheet" href="styles.css" />
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
     <link
@@ -18,8 +19,39 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  
-    <header>
+  <body>
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <!--<a href="#HOME1" class="active"></a>-->
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#HOME1">HOME</a>
+          <a href="#ABOUT">ABOUT</a>
+          <a href="#TRAVEL">TRAVEL</a>
+          <a href="#MOTIVATION">MOTIVATION</a>
+          <a href="#CONTACT">CONTACT</a>
+        </div>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+        <img class="style-logo" alt="logoplanet" src="images/manuel logo.png" />
+      </div>
+
+      <div style="padding-left: 16px">
+        <h3></h3>
+        <p></p>
+        <p></p>
+      </div>
+
+      <!-- End smartphone / tablet look -->
+    </div>
+
+    <!-- <header>
       <div class="row">
         <div class="col">
           <img
@@ -43,13 +75,23 @@
           </nav>
         </div>
       </div>
-    </header>
+    </header>>-->
 
     <!-- Add font awesome icons -->
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-youtube"></a>
+    <div class="leftside">
+      <ul class="socialmediaicons">
+
+
+        <a href="https://www.tiktok.com/@manuelrodando?lang=es" target="_blank"><i class="fab fa-tiktok"></i></a>
+
+
+        <a href="https://www.instagram.com/manuelrodando/" target="_blank"><i class="fa fa-instagram"></i></a>
+      
+
+
+        <a href="https://www.youtube.com/channel/UC0jkN8FfGpTJ3p3ppQfnfDg" target="_blank"><i class="fa fa-youtube"></i>
+        </ul>
+      </div>
 
     <main>
       <div class="row">
@@ -162,74 +204,101 @@
       </div>
     </main>
 
+    <section>
+      <div class="contact-form">
+        <section id="CONTACT"></section>
+        <h3>CONTACT !!! HOLA AMIGOS</h3>
+        <p>GRACIAS Y PURA VIDA</p>
+        <form
+          action="https://formsubmit.co/jovannysmanuel@gmail.com"
+          method="POST"
+        >
+          <label for="name">Enter full name:</label>
+          <input
+            type="text"
+            placeholder="Your Name"
+            name="name"
+            id="name"
+            class="form-input"
+          />
+          <label for="email">Enter email address:</label>
+          <input
+            type="email"
+            placeholder="Email Address"
+            required
+            name="email"
+            id="email"
+            class="form-input"
+          />
 
-<section>
-    <div class="contact-form">
-      <section id="CONTACT"></section>
-      <h3>CONTACT !!! HOLA AMIGOS</h3>
-      <p>GRACIAS Y PURA VIDA</p>
-      <form
-        action="https://formsubmit.co/jovannysmanuel@gmail.com"
-        method="POST"
-      >
-        <label for="name">Enter full name:</label>
-        <input
-          type="text"
-          placeholder="Your Name"
-          name="name"
-          id="name"
-          class="form-input"
-        />
-        <label for="email">Enter email address:</label>
-        <input
-          type="email"
-          placeholder="Email Address"
-          required
-          name="email"
-          id="email"
-          class="form-input"
-        />
+          <input type="hidden" name="_next" value="New Submission!" />
+          <input type="hidden" name="_autoresponse" Thank you />
+          <input
+            type="hidden"
+            name="_webhook"
+            value="https://manuelrodando.com/your-webhook"
+          />
 
-        <input type="hidden" name="_next" value="New Submission!" />
-        <input type="hidden" name="_autoresponse" Thank you />
-        <input
-          type="hidden"
-          name="_webhook"
-          value="https://manuelrodando.com/your-webhook"
-        />
+          <label for="phone">Enter telephone number:</label>
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            name="phone"
+            id="phone"
+            class="form-input"
+          />
 
-        <label for="phone">Enter telephone number:</label>
-        <input
-          type="tel"
-          placeholder="Phone Number"
-          name="phone"
-          id="phone"
-          class="form-input"
-        />
+          <p></p>
+          <p>
+            <span class="checkbox-wrapper">
+              <!-- Default checkbox -->
+              <div class="checkbox-wrapper">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+              </div>
 
-        <p>
-          Have you contacted Manuel Rodando before?
-          <span class="radio-wrapper">
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-          </span>
-          <span class="radio-wrapper">
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
-          </span>
-        </p>
-        <p>
-          <span class="checkbox-wrapper">
-            <input type="checkbox" id="checkbox" name="age-confirm" />
-            <label for="checkbox"
-              >I acknowledge that I am at least 18 years of age</label
-            >
-          </span>
-        </p>
-        <button type="submit">SEND: LETS BUILD A GREAT FUTURE TOGETHER!</button>
-      </form>
-    </div>
-  </section> 
+              <!-- Checked checkbox -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked"
+                  >Yes, I Am 18 Years Of Age and; or, Older.
+                </label>
+              </div>
+            </span>
+          </p>
+          <p id="demo" onclick="myFunction()"></p>
+          <button type="submit">Double Click Submit Here!</button> 
+          <button class="button button1"></button> 
+            
+           
+          </button>
+        </form>
+      </div>
+    </section>
+
+   
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 
   <footer>
