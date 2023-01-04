@@ -428,9 +428,6 @@ footer {
     max-width: 1200px;
   }
 
-  .hero {
-  }
-
   h1 {
     font-size: 58px;
   }
@@ -450,7 +447,7 @@ footer {
     display: inline-block;
     text-align: center;
     word-spacing: 10px;
-    float: center;
+    float: none;
   }
 
   .style-nav ul {
@@ -458,7 +455,7 @@ footer {
     display: inline-block;
     padding: 12%;
     white-space: 10px;
-    float: right;
+    float: none;
   }
 
   .style-logo1 {
