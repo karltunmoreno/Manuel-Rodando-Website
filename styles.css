@@ -108,6 +108,19 @@ body {
   padding: 8px;
 }
 
+.tiktok {
+  height: 95px;
+  width: 95px;
+}
+.instagram {
+  height: 95px;
+  width: 95px;
+}
+.facebook {
+  height: 95px;
+  width: 95px;
+}
+
 .hero {
   background-image: url("images/manuel hero.png");
   background-size: cover;
